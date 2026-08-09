@@ -10,16 +10,16 @@ ONE asks you one question per day — based on the life you want.  No motivation
 
 ## ✨ Key Features & Architecture
 
-- **High-Performance Architecture:** Engineered using modern `CSS` best practices.
-- **Modular & Scalable Design:** Structured code organization for easy maintenance and deployment.
+- **High-Performance Codebase:** Built using `CSS` and modern engineering principles.
+- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
 
-## 🛠️ Tech Stack & Technologies
+## 🛠️ Tech Stack & Dependencies
 
-- **Primary Language:** `CSS`
-- **Frameworks & Libraries:** CSS
-- **Deployment Target:** Vercel Edge / Cloud Infrastructure
+- **Core Language:** `CSS`
+- **Libraries & Tools:** CSS
+- **Deployment Infrastructure:** Vercel Edge / Cloud Services
 
-## 📁 Project Directory Structure
+## 📁 Architecture & File Layout
 
 ```text
 one-app/
@@ -38,16 +38,16 @@ one-app/
 ├── index.html
 ├── logo.png
 ├── script.js
-└── ... [additional source files]
+└── ... [additional codebase files]
 ```
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Installation
 
 ### Prerequisites
 - Git
 - Modern Web Browser / Runtime
 
-### Installation & Local Setup
+### Setup Instructions
 
 1. **Clone the repository:**
    ```bash
@@ -55,7 +55,7 @@ one-app/
    cd one-app
    ```
 
-## 📜 License & Author
+## 📜 Author & License
 
-Engineered with ❤️ by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Released under the **MIT License**.
+Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
+Distributed under the **MIT License**.
