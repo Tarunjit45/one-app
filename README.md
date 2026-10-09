@@ -1,61 +1,63 @@
-# 🚀 one-app
+# 🧘 ONE — One Question Per Day for Intentional Living
 
-![Language](https://img.shields.io/badge/Language-CSS-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Production-Active-success?style=for-the-badge)
+[![Android APK](https://img.shields.io/badge/Download-ONE.apk-3DDC84?style=for-the-badge&logo=android&logoColor=white)](ONE.apk)
+[![Web PWA](https://img.shields.io/badge/Platform-Web%20%2F%20PWA-4285F4?style=for-the-badge)](index.html)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## 📌 Overview
+> *"ONE asks you one question per day — based on the life you want.*  
+> *No motivation. No advice. No distractions.*  
+> *Just honesty, once a day."*
 
-ONE asks you one question per day — based on the life you want.  No motivation. No advice. No distractions.  Just honesty, once a day.
+**ONE** is an ultra-minimalist, distraction-free introspection application available as a responsive web app and an Android APK (`ONE.apk`). Designed to counteract information overload and social media noise, ONE presents a single profound question every 24 hours to help you align your daily actions with your core values.
 
-## ✨ Key Features & Architecture
+---
 
-- **High-Performance Codebase:** Built using `CSS` and modern engineering principles.
-- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
+## 📌 Why ONE?
 
-## 🛠️ Tech Stack & Dependencies
+Modern life inundates us with productivity podcasts, motivational quotes, and endless notifications. But external advice rarely changes behavior—**self-honesty does**.
 
-- **Core Language:** `CSS`
-- **Libraries & Tools:** CSS
-- **Deployment Infrastructure:** Vercel Edge / Cloud Services
+* **Zero Fluff:** No streaks that shame you, no ads, no social feeds.
+* **1 Daily Prompt:** Refreshes once every 24 hours. Once answered or contemplated, the app quietly closes.
+* **Platform Detection:** `script.js` automatically detects user device (iOS vs. Android vs. Desktop) and serves the native install package or web experience.
 
-## 📁 Architecture & File Layout
+---
+
+## 📱 Download Android APK
+
+The production Android application package is bundled directly in this repository:
+👉 **[Download ONE.apk](ONE.apk)**
+
+---
+
+## 📁 Repository Structure
 
 ```text
 one-app/
-├── .github
-├── .github/ISSUE_TEMPLATE
-├── .github/ISSUE_TEMPLATE/bug_report.md
-├── .github/ISSUE_TEMPLATE/feature_request.md
-├── .github/PULL_REQUEST_TEMPLATE.md
-├── .github/workflows
-├── .github/workflows/ci.yml
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── ONE.apk
-├── README.md
-├── index.html
-├── logo.png
-├── script.js
-└── ... [additional codebase files]
+├── ONE.apk             # Android application package for direct sideloading
+├── index.html          # Minimalist web app entry & platform router
+├── script.js           # Daily prompt rotation & OS device detection logic
+├── style.css           # Clean, distraction-free typography & monochromatic styling
+├── logo.png            # Application icon
+├── LICENSE             # MIT License
+└── README.md
 ```
 
-## 🚀 Quickstart & Installation
+---
 
-### Prerequisites
-- Git
-- Modern Web Browser / Runtime
+## 🚀 Web Usage
 
-### Setup Instructions
+Serve the static web app locally using any web server:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Tarunjit45/one-app.git
-   cd one-app
-   ```
+```bash
+git clone https://github.com/Tarunjit45/one-app.git
+cd one-app
 
-## 📜 Author & License
+python -m http.server 8080
+```
 
-Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Distributed under the **MIT License**.
+Visit [http://localhost:8080](http://localhost:8080) in your browser.
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
